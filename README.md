@@ -212,4 +212,103 @@ alumno.direccion "kr65449"
 
 
 puts alumno.nostre 24 puts alumno.direccion
- 
+
+# ultima actividad
+# dartpad
+void main() {
+
+  Instructor pablo = new Instructor();
+
+  pablo.nombre = "pablo"; 
+  pablo.apellido = "herrera";
+  pablo.sueldo = 7000000; 
+  print("Instructor: ${pablo.nombre} ${pablo.apellido}");
+  print("Sueldo: ${pablo.sueldo}"); 
+
+
+  Aprendiz ivan = new Aprendiz(); 
+  ivan.nombre = "ivan";
+
+  ivan.apellido = "mejia";
+
+
+  ivan.ficha = "ADSO";
+
+  print("Aprendiz: ${ivan.nombre} ${ivan.apellido}"); 
+
+  print("Ficha: ${ivan.ficha}");
+
+}
+
+  class Instructor {
+
+
+
+  String? nombre; 
+  String? apellido;
+
+  int? sueldo;
+
+
+
+}
+  class Aprendiz extends Instructor {  
+  
+  String? ficha;
+
+
+
+}
+# java
+public class MyClass {
+    public static void main(String args[]) {
+    Instructor pablo = new Instructor();
+      
+    pablo.nombre = "pablo"; 
+    pablo.apellido = "herrera";
+    pablo.sueldo = 7000000; 
+    System.out.println("Instructor: ${pablo.nombre} ${pablo.apellido}");
+    System.out.println("Sueldo: ${pablo.sueldo}"); 
+    
+    Aprendiz ivan = new Aprendiz(); 
+    ivan.nombre = "ivan";
+    ivan.apellido = "mejia";
+    ivan.ficha = "ADSO";
+    System.out.println("Aprendiz: ${ivan.nombre} ${ivan.apellido}");
+    System.out.println("Ficha: ${ivan.ficha}");
+    }
+}
+    class Instructor {
+        string? nombre;
+        string? apellido;
+        int sueldo;
+        
+    }
+    class Aprendiz extends Instructor {
+        string? ficha;
+    }
+# ruby
+class Instructor
+    attr_accessor :nombre, :apellido, :sueldo
+end
+pablo = Instructor.new
+pablo.nombre = "pablo"
+pablo.apellido = "herrera"
+pablo.sueldo = 7000000
+
+puts pablo.nombre
+puts pablo.apellido
+puts pablo.sueldo
+class Aprendiz 
+    attr_accessor :ficha
+end
+ivan = Aprendiz.new
+ivan.nombre = "ivan"
+ivan.apellido = "mejia"
+ivan.ficha = "ADSO"
+
+puts ivan.nombre
+puts ivan.apellido
+puts ivan.ficha
+
+
