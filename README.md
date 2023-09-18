@@ -44,7 +44,8 @@ Car carro new Car();
 
  carro.placa carnmb465";
 
- carro.color = "rojo": 5 carro.modelo = "2025";
+ carro.color = "rojo":  
+ carro.modelo = "2025";
 
 
 
@@ -52,16 +53,18 @@ carro.marca "kia":
 
 
 
-print(carro.placa); 9 print(carro.color);
+print(carro.placa); 
+print(carro.color);
 
 
 print(carro.modelo);
 
 print(carro.marca);
 
- Alumno alumno Alumno(); 13
+ Alumno alumno Alumno(); 
 
-alumno.nombre 14 alumno.direccion "kra54 9g":
+alumno.nombre 
+alumno.direccion "kra54 9g":
 
 = "juan";
 
@@ -69,7 +72,8 @@ alumno.nombre 14 alumno.direccion "kra54 9g":
 
 } 
 
-print(alumno.nombre); 16 print(alumno.direccion);
+print(alumno.nombre); 
+print(alumno.direccion);
 
 
 
@@ -85,11 +89,13 @@ String? color;
 
 String? modelo;
 
- String? marca; 23 }
+ String? marca; 
+ }
 
 
 
-class Alumno{ 25 String? nombre;
+class Alumno{ 
+String? nombre;
 
 
 
