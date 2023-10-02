@@ -398,5 +398,29 @@ class Aprendiz extends Person {
     String ficha;
 }
 
+# primer punto ultima actividad
+void main(){
 
+  Car kia = Car();
+  kia.placa = "nbm647";
+  Propietario propietario = Propietario(); 
+  propietario.nombre = "ivan";
+  print(kia.placa); 
+  print(propietario.nombre);
+
+}
+class Propietario{ 
+  String? nombre;
+
+  }
+
+class Car{
+
+  Propietario? propietario;
+  String? placa;
+  @override
+  String toSting(){
+  return "placa :$placa, propietario : ${propietario!.nombre}";
+  }
+}
 
