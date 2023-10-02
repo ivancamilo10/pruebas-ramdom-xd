@@ -1,4 +1,4 @@
-# pruebas
+# actividades
 
 # ultima clase
 void main() {
