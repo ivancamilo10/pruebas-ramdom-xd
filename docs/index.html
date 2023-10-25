@@ -1,39 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">    
-  <title>Encuesta de preferencia: Clos vs. Ttas</title>
-  <link rel="stylesheet" type="text/css" href="estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RELOJ MODERNO</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="rej.js"></script>
 </head>
 <body>
-  <div class="container">
-    <h1>Encuesta de preferencia: Clos vs. Ttas</h1>
-
-    <form action="mailto:astablack80@gmail.com" method="post" enctype="text/plain">
-      <label for="nombre">Ingresa tu nombre:</label><br>
-      <input type="text" id="nombre" name="nombre"><br><br>
-
-      <p>¿Cuál es tu preferencia?</p>
-      <input type="radio" id="clos" name="preferencia" value="clos">
-      <label for="clos">Clos</label><br>
-      <input type="radio" id="ttas" name="preferencia" value="ttas">
-      <label for="ttas">Ttas</label><br><br>
-
-      <input type="submit" value="Enviar">
-    </form>
-
-    <br>
-
-    <p>Gracias por responder a la encuesta. ¡Tu opinión es importante para nosotros!</p>
-    <p>Aquí tienes una foto de Jh de la Cruz:</p>
-    <img src="C:\Users\Windows 10\Downloads\cruz-2.jpg" alt="Jh de la Cruz" width="300">
-    <p>Y aquí tienes una foto de Kunno:</p>
-    <img src="C:\Users\Windows 10\Downloads\O7BJYH3Y4VFP7GFWA4NF76FDLY.avif" alt="Kunno" width="300">
-    <canvas id="game" width="600" height="150"></canvas>
-    <script src="dinosaur_game.js"></script>
-    <canvas>game</canvas>
-  </div>
+    <section>
+      <div class="clock">
+        <div class="container">
+          <h2 id="hour">00</h2>
+          <h2 class="dot">:</h2>
+          <h2 id="minute">00</h2>
+          <h2 class="dot">:</h2>
+          <h2 id="second">00</h2>
+          <span id="ampm">AM</span>
+        </div>
+      </div>
+    </section>
 </body>
 </html>
